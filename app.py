@@ -42,13 +42,13 @@ if uploaded_files:
     ax.set_yticks(range(len(texts)))
     file_names = [uploaded_file.name for uploaded_file in uploaded_files]
     truncated_names = [name[:10] + '...' if len(name) > 10 else name for name in file_names]
-    ax.set_xticklabels(truncated_names, rotation=45)
+    ax.set_xticklabels(truncated_names, rotation=90)
     ax.set_yticklabels(truncated_names)
     st.pyplot(fig)
     from scipy.cluster.hierarchy import dendrogram, linkage
     Z = linkage(similarity_matrix)
     fig, ax = plt.subplots()
-    dendrogram(Z, ax=ax, labels=truncated_names, rotation=45)
+    dendrogram(Z, ax=ax, labels=truncated_names)
     st.pyplot(fig)
     
     df = pd.DataFrame(identity_matrix, columns=[uploaded_file.name for uploaded_file in uploaded_files], index=[uploaded_file.name for uploaded_file in uploaded_files])
