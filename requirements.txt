@@ -1,0 +1,6 @@
+streamlit
+matplotlib
+networkx
+python-docx
+scikit-learn
+pandas
