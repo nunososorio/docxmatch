@@ -49,6 +49,7 @@ if uploaded_files:
     Z = linkage(similarity_matrix)
     fig, ax = plt.subplots()
     dendrogram(Z, ax=ax, labels=truncated_names)
+    plt.xticks(rotation=90)
     st.pyplot(fig)
     
     df = pd.DataFrame(identity_matrix, columns=[uploaded_file.name for uploaded_file in uploaded_files], index=[uploaded_file.name for uploaded_file in uploaded_files])
