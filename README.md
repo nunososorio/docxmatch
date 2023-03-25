@@ -22,8 +22,8 @@ To use the app, upload two or more Word files. The app will analyze the similari
 When you upload two or more Word files to DocxMatch, the app will analyze their content and display a list of pairs of files that are considered similar based on a predefined similarity threshold. The default threshold is 0.9.
 In addition to the list of similar files, DocxMatch also displays a heatmap and dendogram showing the similarity scores between all pairs of uploaded files. 
 This allows you to quickly see which files are most similar to each other and how they are related.
-<img src="https://user-images.githubusercontent.com/122723551/227696133-43c5add5-01c4-474d-8449-2d70e4f869fe.png" width="100" height="100">
-<img src="https://user-images.githubusercontent.com/122723551/227696194-9af5bf22-6fbe-41c9-be88-f17a2b4964d4.png" width="100" height="100">
+</br>
+<img src="https://user-images.githubusercontent.com/122723551/227696133-43c5add5-01c4-474d-8449-2d70e4f869fe.png" width="100" height="100"> <img src="https://user- images.githubusercontent.com/122723551/227696194-9af5bf22-6fbe-41c9-be88-f17a2b4964d4.png" width="100" height="100">
 
 
 ## Potential Use Cases
