@@ -1,6 +1,6 @@
 ## DocxMatch
 
-DocxMatch is a Streamlit app that analyzes the similarity between uploaded Word files.
+DocxMatch is a Streamlit app that analyzes the similarity between Word files.
 
 ## Live Tool
 
