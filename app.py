@@ -8,7 +8,7 @@ from sklearn.cluster import KMeans
 from sklearn.metrics.pairwise import cosine_similarity
 from collections import Counter
 
-st.title('DocuMatch')
+st.title('DocxMatch')
 st.subheader('Docx Similarity Analyzer')
 uploaded_files = st.file_uploader('Upload two more word files:', type='docx', accept_multiple_files=True)
 if uploaded_files:
