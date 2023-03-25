@@ -10,7 +10,7 @@ from collections import Counter
 
 st.title('DocxMatch')
 st.subheader('Docx Similarity Analyzer')
-uploaded_files = st.file_uploader('Upload two more word files:', type='docx', accept_multiple_files=True)
+uploaded_files = st.file_uploader('Upload two or more word files:', type='docx', accept_multiple_files=True)
 if uploaded_files:
     texts = []
     for uploaded_file in uploaded_files:
