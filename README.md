@@ -4,7 +4,7 @@ DocuMatch is a Streamlit app that analyzes the similarity between uploaded Word 
 
 ## Live Tool
 
-You can access the live tool at https://nunososorio-nunososorio-github-io-app-5lxxp6.streamlit.app/
+You can access the live tool at 
 
 ## Requirements
 
