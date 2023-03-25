@@ -4,7 +4,7 @@ DocxMatch is a Streamlit app that analyzes the similarity between uploaded Word 
 
 ## Live Tool
 
-You can access the live tool at https://nunososorio-documatch-app-ibhafq.streamlit.app/
+You can access the live tool at https://nunososorio-documatch-app-ibhafq.streamlit.app/ or https://bit.ly/docxmatch
 
 ## Requirements
 
