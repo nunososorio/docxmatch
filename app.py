@@ -7,8 +7,6 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import KMeans
 from sklearn.metrics.pairwise import cosine_similarity
 from collections import Counter
-import ast
-import astunparse
 
 st.title('DocxMatch')
 st.subheader('Docx Similarity Analyzer')
